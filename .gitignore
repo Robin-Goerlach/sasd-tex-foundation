@@ -1,0 +1,60 @@
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.fmt
+*.fot
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.xdv
+
+# Index and glossary files
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.ist
+
+# Nomenclature
+*.nlo
+*.nls
+
+# Bibliography helpers
+*.bib.bak
+
+# TikZ / externalization
+*.dpth
+*.md5
+*.dep
+tikzcache/
+
+# Minted
+_minted*
+*.pyg
+
+# Latexmk
+latexmkrc.local
+
+# Temporary editor files
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# PDF output can be versioned selectively
+# Uncomment the next line if generated PDFs should be ignored
+# *.pdf
